@@ -1,0 +1,33 @@
+#justify,#otra{
+    display: flex;
+    justify-content: space-between;
+}
+.primer{
+    width: 25%;
+    background-color: blueviolet;
+    /* float: left; */
+}
+.primer:after{
+    content: 'Esto es despues del contenido';
+    color: white;
+    font-size: 20px;
+}
+.primer:before{
+    content: 'esto es para antes del contenido';
+    color: yellow;
+    font-size: 20px;
+}
+.primer::first-letter{
+    color: blue;
+    font-size: 30px;
+}
+.blue{
+    background-color: blue;
+}
+li{
+    display: inline;
+}
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+}
