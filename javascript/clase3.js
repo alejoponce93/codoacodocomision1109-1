@@ -7,8 +7,8 @@ btn.addEventListener('click', sumar);//al hacer click llamamos a una funcion
 
 //funciones
 function sumar() {
-    let num = parseInt(prompt("Ingresá 1° número: "));
-    let num2 = parseInt(prompt("Ingresá 2° número: "));
+    let num = Number(prompt("Ingresá 1° número: "));
+    let num2 = Number(prompt("Ingresá 2° número: "));
     let operacion = prompt("Que operacion desea realizar? \n1.Sumar \n2.Restar \n3.Multiplicar \n4.Dividir");
     switch (operacion) {
         case '1':
